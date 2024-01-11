@@ -1,0 +1,551 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="main.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+        integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Document</title>
+</head>
+
+<body>
+    <header>
+        <div class="header-left">
+            <a href="https://getbootstrap.com/">
+                <i class="fa-brands fa-bootstrap"></i>
+            </a>
+            <a href="https://getbootstrap.com/docs/5.3/getting-started/introduction/">Docs</a>
+            <a href="https://getbootstrap.com/docs/5.3/examples/">Examples</a>
+            <a href="https://icons.getbootstrap.com/">Icons</a>
+            <a href="https://themes.getbootstrap.com/">Themes</a>
+            <a href="https://blog.getbootstrap.com/">Blog</a>
+        </div>
+        <div class="header-center">
+            <input type="text" placeholder="Search">
+            <span>⌘K</span>
+            <i class="fa-solid fa-magnifying-glass"></i>
+        </div>
+        <div class="header-right">
+            <a href="https://github.com/twbs">
+                <img src="https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.iconarchive.com%2Fshow%2Fbootstrap-icons-by-bootstrap%2FBootstrap-github-icon.html&psig=AOvVaw2WfPz1NlM1NHDtC4YDkuVn&ust=1703777283175000&source=images&cd=vfe&opi=89978449&ved=0CBIQjRxqFwoTCMCphJb3r4MDFQAAAAAdAAAAABAD"
+                    alt="">
+            </a>
+            <a href="https://twitter.com/getbootstrap">
+                <i class="fa-brands fa-twitter"></i>
+            </a>
+            <a href="https://opencollective.com/bootstrap">
+                <i class="fa-solid fa-circle-notch"></i>
+            </a>
+            <span>v5.3</span>
+
+            <i class="fa-regular fa-sun"></i>
+        </div>
+    </header>
+    <main>
+        <div class="first-center">
+            <h3 class="newv5">
+                <span>New in v5.3</span>
+                <span>Color mode support, expanded color palette, and more!</span>
+            </h3>
+            <i class="fa-brands fa-bootstrap my-bootstrap"></i>
+
+            <h1>
+                Build fast, responsive sites with Bootstrap
+            </h1>
+            <p>
+                Powerful, extensible, and feature-packed frontend toolkit. Build and customize with Sass, utilize
+                prebuilt grid system and components, and bring projects to life with powerful JavaScript plugins.
+            </p>
+            <div class="first-center-buttons">
+                <!-- Create box for the terminal command + Read the docs button -->
+                <code class="center-btn">$ npm i bootstrap@5.3.2
+            </code>
+                <button class="center-btn">Read the docs</button>
+            </div>
+            <div class="Versions">
+
+                <span>Currently v5.3.2</span>
+                <a>Download</a>
+                <a>All releases</a>
+                <!-- Create hyperlinks for "Downloads" & "All releases" -->
+            </div>
+            <div class="ads">
+                <img src="https://srv.carbonads.net/static/30242/dbf6eb45a7aa21af7b75357e1c7f2e2a40392ae2">
+                <p>
+                    Auth. Built for Devs, by Devs. Use our APIs & SDKs for all your authentication needs. Start free.
+                    <br> <br>
+                    ads via Carbon
+                </p>
+            </div>
+        </div>
+        <div class="second-center">
+            <img src="assets/html-logo.png" alt="">
+            <h1>
+                <span>Get started any way you want</span>
+            </h1>
+            <h3>
+                <span>Jump right into building with Bootstrap—use the CDN, install it via package manager, or download
+                    the source code.</span>
+            </h3>
+            <h3>
+                <a href="https://getbootstrap.com/docs/5.3/getting-started/download/">Read installation docs</a>
+            </h3>
+        </div>
+        <div class="section-content">
+        <div class="section-row-2">
+            <div class="left-column">
+                <h3>Install via package manager</h3>
+                <p>Install Bootstrap’s source Sass and JavaScript files via npm, RubyGems, Composer, or Meteor. Package managed installs don’t include documentation or our full build scripts. You can also use any demo from our Examples repo to quickly jumpstart Bootstrap projects.</p>
+                <code class="center-btn install-commands">$ npm install bootstrap@5.3.2
+                </code>
+                <code class="center-btn install-commands">$ gem install bootstrap -v 5.3.2
+                </code>
+            </div>
+            <div class="right-column">
+                <h3>Include via CDN</h3>
+                <p>When you only need to include Bootstrap’s compiled CSS or JS, you can use jsDelivr. See it in action with our simple quick start, or browse the examples to jumpstart your next project. You can also choose to include Popper and our JS separately.</p>
+                <code class="center-btn install-commands"> &lt;link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous"&gt;
+                </code>
+                <code class="center-btn install-commands">&lt;script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"&gt;&lt;/script&gt;
+                </code>
+            </div>
+        </div>
+    </div>
+        <div class="section-content">
+            <div class="section-row-1">
+                <img src="assets/Customize-logo.png" alt="">
+                <h3>Customize everything with Sass</h3>
+                <p>Bootstrap utilizes Sass for a modular and customizable architecture. Import only the components you
+                    need,
+                    enable global options like gradients and shadows, and write your own CSS with our variables, maps,
+                    functions, and mixins.</p>
+                <a href="https://getbootstrap.com/docs/5.3/customize/overview/">Learn more about customizing<i
+                        class="fa-light fa-arrow-right"></i></a>
+            </div>
+            <div class="section-row-2">
+                <div class="left-column">
+                    <h3>Include all of Bootstrap’s Sass</h3>
+                    <p>Import one stylesheet and you're off to the races with every feature of our CSS.</p>
+
+                    <div class="code">
+                        // Variable overrides first
+                        $primary: #900;
+                        $enable-shadows: true;
+                        $prefix: "mo-";
+
+                        // Then import Bootstrap
+                        @import "../node_modules/bootstrap/scss/bootstrap";</div>
+
+                </div>
+                <div class="right-column">
+                    <h3>Include what you need</h3>
+                    <p>The easiest way to customize Bootstrap—include only the CSS you need.</p>
+
+                    <div class="code">
+                        <p class="code-comment">// Functions first</p>
+                        <p><span class='import'>@import</span> "../node_modules/bootstrap/scss/functions";</p>
+
+                        <p class="code-comment">// Variable overrides second</p>
+                        <p>$primary: #900;</p>
+                        <p>$enable-shadows: true;</p>
+                        <p>$prefix: "mo-";</p>
+
+                        <p class="code-comment">// Required Bootstrap imports</p>
+                        <p><span class='import'>@import</span> "../node_modules/bootstrap/scss/variables";</p>
+                        <p><span class='import'>@import</span> "../node_modules/bootstrap/scss/variables-dark";</p>
+                        <p><span class='import'>@import</span> "../node_modules/bootstrap/scss/maps";</p>
+                        <p><span class='import'>@import</span> "../node_modules/bootstrap/scss/mixins";</p>
+                        <p><span class='import'>@import</span> "../node_modules/bootstrap/scss/root";</p>
+
+                        <p class="code-comment">// Optional components</p>
+                        <p><span class='import'>@import</span> "../node_modules/bootstrap/scss/utilities";</p>
+                        <p><span class='import'>@import</span> "../node_modules/bootstrap/scss/reboot";</p>
+                        <p><span class='import'>@import</span> "../node_modules/bootstrap/scss/containers";</p>
+                        <p><span class='import'>@import</span> "../node_modules/bootstrap/scss/grid";</p>
+                        <p><span class='import'>@import</span> "../node_modules/bootstrap/scss/helpers";</p>
+                        <p><span class='import'>@import</span> "../node_modules/bootstrap/scss/utilities/api";
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="section-content">
+            <div class="section-row-1">
+                <img src="assets/Customize-logo.png" alt="">
+                <h3>Build and extend in real-time with CSS variables</h3>
+                <p>Bootstrap 5 is evolving with each release to better utilize CSS variables for global theme styles,
+                    individual components, and even utilities. We provide dozens of variables for colors, font styles,
+                    and more at a :root level for use anywhere. On components and utilities, CSS variables are scoped to
+                    the relevant class and can easily be modified.</p>
+                <a href="https://getbootstrap.com/docs/5.3/customize/css-variables/">Learn more about CSS variables<i
+                        class="fa-light fa-arrow-right"></i></a>
+            </div>
+            <div class="section-row-2">
+                <div class="left-column">
+                    <h3>Using CSS variables</h3>
+                    <p>Use any of our global :root variables to write new styles. CSS variables use the
+                        var(--bs-variableName) syntax and can be inherited by children elements.</p>
+                    <div class="code">
+                        .component {
+                        color: var(--bs-gray-800);
+                        background-color: var(--bs-gray-100);
+                        border: 1px solid var(--bs-gray-200);
+                        border-radius: .25rem;
+                        }
+
+                        .component-header {
+                        color: var(--bs-purple);
+                        }</div>
+                </div>
+                <div class="right-column">
+                    <h3>Customizing via CSS variables</h3>
+                    <p>Override global, component, or utility class variables to customize Bootstrap just how you like.
+                        No need to redeclare each rule, just a new variable value.</p>
+                    <div class="code">
+                        body {
+                        --bs-body-font-family: var(--bs-font-monospace);
+                        --bs-body-line-height: 1.4;
+                        --bs-body-bg: var(--bs-gray-100);
+                        }
+
+                        .table {
+                        --bs-table-color: var(--bs-gray-600);
+                        --bs-table-bg: var(--bs-gray-100);
+                        --bs-table-border-color: transparent;
+                        }
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+        <div class="section-content">
+            <div class="section-row-1">
+                <img src="assets/Customize-logo.png" alt="">
+                <h3>Components, meet the Utility API</h3>
+                <p>New in Bootstrap 5, our utilities are now generated by our Utility API. We built it as a
+                    feature-packed Sass map that can be quickly and easily customized. It's never been easier to add,
+                    remove, or modify any utility classes. Make utilities responsive, add pseudo-class variants, and
+                    give them custom names.</p>
+                <a href="https://getbootstrap.com/docs/5.3/customize/css-variables/">Learn more about CSS variables<i
+                        class="fa-light fa-arrow-right"></i></a>
+            </div>
+            <div class="section-row-2">
+                <div class="left-column">
+                    <h3>Quickly customize components</h3>
+                    <p>Apply any of our included utility classes to our components to customize their appearance, like
+                        the navigation example below. There are hundreds of classes available—from positioning and
+                        sizing to colors and effects. Mix them with CSS variable overrides for even more control.</p>
+                    <div class="code">
+                        <ul class="nav nav-pills nav-fill gap-2 p-1 small bg-primary rounded-5 shadow-sm" id="pillNav2"
+                            role="tablist"
+                            style="--bs-nav-link-color: var(--bs-white); --bs-nav-pills-link-active-color: var(--bs-primary); --bs-nav-pills-link-active-bg: var(--bs-white);">
+                            <li class="nav-item" role="presentation">
+                                <button class="nav-link active rounded-5" id="home-tab2" data-bs-toggle="tab"
+                                    type="button" role="tab" aria-selected="true">Home</button>
+                            </li>
+                            <li class="nav-item" role="presentation">
+                                <button class="nav-link rounded-5" id="profile-tab2" data-bs-toggle="tab" type="button"
+                                    role="tab" aria-selected="false">Profile</button>
+                            </li>
+                            <li class="nav-item" role="presentation">
+                                <button class="nav-link rounded-5" id="contact-tab2" data-bs-toggle="tab" type="button"
+                                    role="tab" aria-selected="false">Contact</button>
+                            </li>
+                        </ul>
+                    </div>
+                    <a href="https://getbootstrap.com/docs/5.3/examples/#snippets">Explore customized components<i
+                            class="fa-light fa-arrow-right"></i></a>
+                </div>
+                <div class="right-column">
+                    <h3>Create and extend utilities</h3>
+                    <p>Use Bootstrap's utility API to modify any of our included utilities or create your own custom
+                        utilities for any project. Import Bootstrap first, then use Sass map functions to modify, add,
+                        or remove utilities.</p>
+                    <div class="code">
+                        body {
+                        --bs-body-font-family: var(--bs-font-monospace);
+                        --bs-body-line-height: 1.4;
+                        --bs-body-bg: var(--bs-gray-100);
+                        }
+
+                        .table {
+                        --bs-table-color: var(--bs-gray-600);
+                        --bs-table-bg: var(--bs-gray-100);
+                        --bs-table-border-color: transparent;
+                        }
+                    </div>
+                    <a href="https://getbootstrap.com/docs/5.3/utilities/api/">Explore the utility API<i
+                            class="fa-light fa-arrow-right"></i></a>
+                </div>
+            </div>
+        </div>
+
+
+
+        <div class="section-content">
+            <div class="section-row-1">
+                <img src="assets/Customize-logo.png" alt="">
+                <h3>Powerful JavaScript plugins without jQuery</h3>
+                <p>Add toggleable hidden elements, modals and offcanvas menus, popovers and tooltips, and so much
+                    more—all without jQuery. Bootstrap's JavaScript is HTML-first, meaning most plugins are added with
+                    data attributes in your HTML. Need more control? Include individual plugins programmatically.</p>
+                <a href="https://getbootstrap.com/docs/5.3/getting-started/javascript/">Learn more about Bootstrap
+                    Javascript<i class="fa-light fa-arrow-right"></i></a>
+            </div>
+            <div class="section-row-2">
+                <div class="left-column">
+                    <h3>Data attribute API</h3>
+                    <p>Why write more JavaScript when you can write HTML? Nearly all of Bootstrap's JavaScript plugins
+                        feature a first-class data API, allowing you to use JavaScript just by adding data attributes.
+                    </p>
+                    <div class="code">
+                        <p>&lt;div class="dropdown"&gt;</p>
+                        <p>&lt;button class="btn btn-primary dropdown-toggle" type="button" data-bs-toggle="dropdown"
+                                aria-expanded="false"&gt;</p>
+                            <p>Dropdown</p>
+                            <p>&lt;/button&gt;</p>
+                            <p>&lt;ul class="dropdown-menu"&gt;</p>
+                            <p>&lt;li&gt;&lt;button class="dropdown-item" type="button"&gt;Dropdown item&lt;/button&gt;&lt;/li&gt;</p>
+                            <p>&lt;li&gt;&lt;button class="dropdown-item" type="button"&gt;Dropdown item&lt;/button&gt;&lt;/li&gt;</p>
+                            <p>&lt;li&gt;&lt;button class="dropdown-item" type="button"&gt;Dropdown item&lt;/button&gt;&lt;/li&gt;</p>
+                            <p>&lt;/ul&gt;</p>
+                            <p>&lt;/div&gt;</p>
+                    </div>
+                    <a href="https://getbootstrap.com/docs/5.3/examples/#snippets">Explore customized components<i
+                            class="fa-light fa-arrow-right"></i></a>
+                </div>
+                <div class="right-column">
+                    <h3>Comprehensive set of plugins</h3>
+                    <p>Bootstrap features a dozen plugins that you can drop into any project. Drop them in all at once, or choose just the ones you need.</p>
+                    <div class="plugins">
+                        <div class="column-1">
+                            <div class="plugin-item">
+                                <h4>Alert</h4>
+                                <p>Show and hide alert messages to your users.</p>
+                            </div>
+                            <div class="plugin-item">
+                                <h4>Carousel</h4>
+                                <p>Add slideshows to any page, including support for crossfade.</p>
+                            </div>
+                            <div class="plugin-item">
+                                <h4>Dropdown</h4>
+                                <p>Create menus of links, actions, forms, and more.</p>
+                            </div>
+                            <div class="plugin-item">
+                                <h4>Offcanvas</h4>
+                                <p>Build and toggle hidden sidebars into any page.</p>
+                            </div>
+                            <div class="plugin-item">
+                                <h4>Scrollspy</h4>
+                                <p>Automatically update active nav links based on page scroll.</p>
+                            </div>
+                            <div class="plugin-item">
+                                <h4>Toast</h4>
+                                <p>Show and hide notifications to your visitors.</p>
+                            </div>
+                        </div>
+                        <div class="column-2">
+                            <div class="plugin-item">
+                                <h4>Button</h4>
+                                <p>Programmatically control the active state for buttons</p>
+                            </div>
+                            <div class="plugin-item">
+                                <h4>Collapse</h4>
+                                <p>Expand and collapse areas of content, or create accordions.</p>
+                            </div>
+                            <div class="plugin-item">
+                                <h4>Modal</h4>
+                                <p>Add flexible and responsive dialogs to your project.</p>
+                            </div>
+                            <div class="plugin-item">
+                                <h4>Popover</h4>
+                                <p>Create custom overlays. Built on Popper.</p>
+                            </div>
+                            <div class="plugin-item">
+                                <h4>Tab</h4>
+                                <p>Allow Bootstrap nav components to toggle contents.</p>
+                            </div>
+                            <div class="plugin-item">
+                                <h4>Tooltip</h4>
+                                <p>Replace browser tooltips with custom ones. Built on Popper.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+    <footer>
+        <div class="footer-1">
+            <h4>Bootstrap</h4>
+        </div>
+        <div class="footer-2">
+            <div class="footer-column">
+                <h4>Links</h4>
+                <a>Home</a>
+                <a>Docs</a>
+                <a>Examples</a>
+                <a>Icons</a>
+                <a>Themes</a>
+                <a>Blog</a>
+                <a>Swag Store</a>
+            </div>
+            <div class="footer-column">
+                <h4>Guides</h4>
+            </div>
+
+        </div>
+        <div class="footer-3">
+            <div class="footer-column">
+                <h4>Projects</h4>
+            </div>
+            <div class="footer-column">
+                <h4>Community</h4>
+            </div>
+        </div>
+    </footer>
+</body>
+
+</html>
+
+
+<!-- 
+<div class="second-center-left">
+    <h3>Install via package manager</h3>
+    <p>Install Bootstrap’s source Sass and JavaScript files via npm, RubyGems, Composer, or Meteor. Package managed
+        installs don’t include documentation or our full build scripts. You can also use any demo from our Examples repo
+        to quickly jumpstart Bootstrap projects.</p>
+    <i class="fa-brands fa-bootstrap my-bootstrap"></i>
+    <i class="fa-brands fa-bootstrap my-bootstrap"></i>
+    <a href="https://getbootstrap.com/docs/5.3/getting-started/download/">Read our installation docs</a>for more info
+    and additional package managers.
+</div>
+
+<div class="second-center-right">
+
+</div>
+
+
+
+
+
+<div class="section-content">
+    <div class="section-row-1">
+        <h3>Customize everything with Sass</h3>
+        <p>Bootstrap utilizes Sass for a modular and customizable architecture. Import only the components you need,
+            enable global options like gradients and shadows, and write your own CSS with our variables, maps,
+            functions, and mixins.</p>
+        <a href="https://getbootstrap.com/docs/5.3/customize/overview/">Learn more about customizing</a>
+    </div>
+    <div class="section-row-2">
+        <div class="left-column">
+            <h3>Include all of Bootstrap’s Sass</h3>
+            <p>Import one stylesheet and you're off to the races with every feature of our CSS.</p>
+        </div>
+        <div class="right-column">
+            <h3>Include what you need</h3>
+            <p>The easiest way to customize Bootstrap—include only the CSS you need.</p>
+        </div>
+    </div>
+</div>
+
+
+<div class="second-left">
+    <h3>Build and extend in real-time with CSS variables</h3>
+    <p>Bootstrap 5 is evolving with each release to better utilize CSS variables for global theme styles, individual
+        components, and even utilities. We provide dozens of variables for colors, font styles, and more at a :root
+        level for use anywhere. On components and utilities, CSS variables are scoped to the relevant class and can
+        easily be modified.</p>
+    <a href="https://getbootstrap.com/docs/5.3/customize/css-variables/">Learn more about CSS variables</a>
+
+    <div class="second-left-left">
+        <h3>Using CSS variables
+        </h3>
+        <p>Use any of our global :root variables to write new styles. CSS variables use the var(--bs-variableName)
+            syntax and can be inherited by children elements.</p>
+
+    </div>
+
+    <div class="second-left-right">
+        <h3>Customizing via CSS variables</h3>
+        <p>Override global, component, or utility class variables to customize Bootstrap just how you like. No need to
+            redeclare each rule, just a new variable value.</p>
+    </div>
+</div>
+
+
+<div class="third-left">
+    <h3>Components, meet the Utility API</h3>
+    <p>Bootstrap 5 is evolving with each release to better utilize CSS variables for global theme styles, individual
+        components, and even utilities. We provide dozens of variables for colors, font styles, and more at a :root
+        level for use anywhere. On components and utilities, CSS variables are scoped to the relevant class and can
+        easily be modified.</p>
+    <a href="https://getbootstrap.com/docs/5.3/customize/css-variables/">Learn more about CSS variables</a>
+
+    <div class="third-left-left">
+        <h3>Quickly customize components
+        </h3>
+        <p>Apply any of our included utility classes to our components to customize their appearance, like the
+            navigation example below. There are hundreds of classes available—from positioning and sizing to colors and
+            effects. Mix them with CSS variable overrides for even more control.</p>
+
+    </div>
+
+    <div class="third-left-right">
+        <h3>Create and extend utilities</h3>
+        <p>Use Bootstrap's utility API to modify any of our included utilities or create your own custom utilities for
+            any project. Import Bootstrap first, then use Sass map functions to modify, add, or remove utilities.</p>
+    </div>
+</div>
+
+
+<div class="fourth-left">
+    <h3>Powerful JavaScript plugins without jQuery</h3>
+    <p>Add toggleable hidden elements, modals and offcanvas menus, popovers and tooltips, and so much more—all without
+        jQuery. Bootstrap's JavaScript is HTML-first, meaning most plugins are added with data attributes in your HTML.
+        Need more control? Include individual plugins programmatically.</p>
+    <a href="https://getbootstrap.com/docs/5.3/getting-started/javascript/">Learn more about Bootstrap Javascript</a>
+
+    <div class="fourth-left-left">
+        <h3>Data attribute API</h3>
+        <p>Why write more JavaScript when you can write HTML? Nearly all of Bootstrap's JavaScript plugins feature a
+            first-class data API, allowing you to use JavaScript just by adding data attributes.</p>
+        <div class="fourth-left-right">
+            <h3>Comprehensive set of plugins</h3>
+            <p>Bootstrap features a dozen plugins that you can drop into any project. Drop them in all at once, or
+                choose just the ones you need.</p>
+            <div class="fourth-left-column-left">
+            </div>
+            <div class="fourth-left-column-right">
+            </div>
+        </div>
+    </div>
+
+    <div class="fourth-left-right">
+        <h3>Comprehensive set of plugins</h3>
+        <p>Bootstrap features a dozen plugins that you can drop into any project. Drop them in all at once, or choose
+            just the ones you need.</p>
+    </div>
+</div>
+
+
+<div class="fifth-left">
+    <h3>Personalize it with Bootstrap Icons</h3>
+    <p>Add toggleable hidden elements, modals and offcanvas menus, popovers and tooltips, and so much more—all without
+        jQuery. Bootstrap's JavaScript is HTML-first, meaning most plugins are added with data attributes in your HTML.
+        Need more control? Include individual plugins programmatically.</p>
+    <a href="https://icons.getbootstrap.com/">Get Bootstrap Icons</a>
+</div>
+
+
+<div class="sixth-left">
+    <h3>Make it yours with official Bootstrap Themes</h3>
+    <p>Take Bootstrap to the next level with premium themes from the official Bootstrap Themes marketplace. Themes are
+        built on Bootstrap as their own extended frameworks, rich with new components and plugins, documentation, and
+        powerful build tools.</p>
+    <a href="https://themes.getbootstrap.com/">Browse Bootstrap Themes</a>
+</div> -->
